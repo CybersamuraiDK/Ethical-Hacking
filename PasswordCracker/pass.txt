@@ -1,3 +1,4 @@
+THIS IS A SAMPLE PASSWORDLIST
 password
 admin
 root
