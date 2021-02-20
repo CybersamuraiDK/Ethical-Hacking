@@ -1,0 +1,7 @@
+password
+admin
+root
+P@ssw0rd
+P@ssword
+password123
+password321
