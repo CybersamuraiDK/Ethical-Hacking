@@ -1,5 +1,4 @@
-# pythonscripts
-Pythonscripts for ethical hacking
+# ETHICAL HACKING - SCRIPTS AND MORE
 
 WARNING!
 These scripts are ONLY for EDUCATIONAL purposes! 
