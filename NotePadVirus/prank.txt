@@ -1,13 +1,11 @@
-    Set wshShell =wscript.CreateObject(“WScript.Shel
+Set wshShell =wscript.CreateObject(“WScript.Shell”)
 
-    l”)
+do
 
-    do
+wscript.sleep 100
 
-    wscript.sleep 100
+wshshell.sendkeys “{CAPSLOCK}”
 
-    wshshell.sendkeys “{CAPSLOCK}”
-
-    loop
+loop
     
-    # Delete this and save file as anything.bat . This Code will toggle CAPSLOCK simultaneously
+# Delete this and save file as .VBS . This Code will toggle CAPSLOCK simultaneously
