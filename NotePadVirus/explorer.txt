@@ -1,0 +1,10 @@
+@echo off
+start C:\Program Files\Internet Explorer\iexplore.exe
+start
+start
+start
+start
+start
+start 
+
+#Delete this and save as .bat . This wil open many internet browsers
