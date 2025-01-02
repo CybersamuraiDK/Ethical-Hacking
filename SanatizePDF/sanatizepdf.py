@@ -47,6 +47,6 @@ def sanitize_pdf(input_file, output_file):
 
 # Replace with your input and output file paths
 input_pdf = "test_unclean.pdf"
-output_pdf = "sanitized_oscp2023_clean.pdf"
+output_pdf = "sanitized_cleanPDF.pdf"
 
 sanitize_pdf(input_pdf, output_pdf)
