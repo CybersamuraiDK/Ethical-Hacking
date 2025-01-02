@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#A POC of a python script that searches through the PDF, not text but PDF object, to find malicious code and replace/overwrite it rendering it safe.
 
 import pikepdf
 
