@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- This is just a POC and made for educational purpose -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Sign In</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #e0e0db, #e1e4df);
+            flex-direction: column;
+        }
+        .container, .sign-in-options-container {
+            background: white;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            width: 320px;
+            text-align: left;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        .logo {
+            width: 22px;
+            margin-right: 8px;
+        }
+        .logo-text {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+        h2 {
+            font-size: 20px;
+            margin-bottom: 12px;
+            font-weight: normal;
+        }
+        .input-field {
+            width: 100%;
+            padding: 8px 0;
+            margin-bottom: 12px;
+            border: none;
+            border-bottom: 1px solid #666;
+            font-size: 14px;
+            outline: none;
+        }
+        .button-group {
+            display: flex;
+            justify-content: flex-end;
+            gap: 8px;
+            margin-top: 20px;
+        }
+        .btn {
+            padding: 8px 14px;
+            border: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .btn-back {
+            background: #ccc;
+        }
+        .btn-next {
+            background: #0067b8;
+            color: white;
+        }
+        .btn-next:hover {
+            background: #005a9e;
+        }
+        .link {
+            display: block;
+            margin-top: 8px;
+            color: #0067b8;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+        .sign-in-options-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 16px;
+            width: 345px;
+            background: white;
+            padding: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        .sign-in-options {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 14px;
+            font-weight: normal;
+        }
+        .sign-in-options img {
+            width: 16px;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo" class="logo">
+            <span class="logo-text">Microsoft</span>
+        </div>
+        <h2>Sign in</h2>
+        <input type="text" id="username" class="input-field" placeholder="Email, phone, or Skype">
+        <a href="#" class="link">No account? <strong>Create one!</strong></a>
+        <a href="#" class="link">Can't access your account?</a>
+        <div class="button-group">
+            <button class="btn btn-back" onclick="goBack()">Back</button>
+            <button class="btn btn-next" onclick="validateInput()">Next</button>
+        </div>
+    </div>
+    <div class="sign-in-options-container" onclick="showSignInOptions()">
+        <div class="sign-in-options">
+            <img src="https://img.icons8.com/ios/50/key-security.png" alt="Key Icon">
+            <span>Sign-in options</span>
+        </div>
+    </div>
+    <script>
+        function goBack() {
+            alert("Going back...");
+        }
+        
+        function validateInput() {
+            let username = document.getElementById("username").value;
+            if (username.trim() === "") {
+                alert("Please enter your email, phone, or Skype.");
+            } else {
+                alert("Redirecting to password entry...");
+            }
+        }
+        
+        function showSignInOptions() {
+            alert("Sign-in options coming soon...");
+        }
+    </script>
+</body>
+</html>
